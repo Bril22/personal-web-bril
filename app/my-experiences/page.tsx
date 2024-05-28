@@ -127,6 +127,7 @@ const Page = () => {
   return (
     <div className="flex flex-col gap-20 justify-center items-center pt-40">
       <div className="flex md:flex-row flex-col gap-20 text-center z-20">
+        {/* test page */}
         <AnimatedSection>
           <div className={`flex flex-col gap-10 md:gap-20`}>
             {myEducations.map((item, i) => (
