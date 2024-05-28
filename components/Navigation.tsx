@@ -44,7 +44,7 @@ const Navigation = ({ withDesc, withIcon = true, cols = false }: INavigation) =>
               }`}
             />
           )}
-          {withDesc && <p className={`font-semibold ${path === nav.name ? "text-[#f5f5dc]" : ""}`}>{nav.desc}</p>}
+          {withDesc && <p className={`font-semibold text-[#4d5d53] ${path === nav.name ? "text-black" : ""}`}>{nav.desc}</p>}
         </Link>
       ))}
     </div>
