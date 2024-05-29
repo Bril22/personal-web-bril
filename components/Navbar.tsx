@@ -30,7 +30,7 @@ const Navbar = () => {
           <Link href={"/"}>
             <h1 className="text-[#f5f5dc] text-[25px] font-semibold">
               Bril{" "}
-              <span className="text-[#f5f5dc] bg-clip-text bg-gray-800">
+              <span className="text-[#828d86] bg-clip-text bg-gray-800">
                 {" "}
                 Dev{" "}
               </span>
