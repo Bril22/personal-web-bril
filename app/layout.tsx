@@ -25,7 +25,7 @@ export default function RootLayout({
             style={{ backgroundImage: "url(/new-bg.jpg)" }}
           />
           <Navbar />
-          <div className="h-screen overflow-x-hidden">{children}</div>
+          <div className="h-full overflow-x-hidden">{children}</div>
           {/* <div>footer</div> */}
         </div>
       </body>

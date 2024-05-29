@@ -210,7 +210,7 @@ const Page = () => {
           </div>
         </AnimatedSection>
       </div>
-      <div className="flex md:flex-row flex-col gap-20 text-center z-20 pb-20 max-w-[80%]">
+      <div className="flex md:flex-row flex-col gap-20 text-center z-20 max-w-[80%]">
         <AnimatedSection>
           <div className={`flex flex-col gap-10 md:gap-20`}>
             {organizations.map((item, i) => (
@@ -302,6 +302,17 @@ const Page = () => {
             </div>
           </div>
         </AnimatedSection>
+      </div>
+      <div className="flex md:flex-row flex-col text-center z-20 max-w-[80%] pb-20">
+        <Link
+          href="/my-cv.pdf"
+          download
+          rel="noreferrer"
+          target="_blank"
+          className="px-8 py-4 bg-[#4d5d53] cursor-pointer rounded-lg"
+        >
+          Download CV
+        </Link>
       </div>
     </div>
   );

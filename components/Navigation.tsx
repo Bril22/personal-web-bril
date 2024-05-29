@@ -40,11 +40,11 @@ const Navigation = ({ withDesc, withIcon = true, cols = false }: INavigation) =>
           {withIcon && (
             <nav.icon
               className={`w-[24px] h-[24px] hover:scale-125 ${
-                path === nav.name ? "text-[#7f9774]" : "text-[#f5f5dc]"
+                path === nav.name ? "text-[#f5f5dc]" : "text-[#7f9774]"
               }`}
             />
           )}
-          {withDesc && <p className={`font-semibold text-[#4d5d53] ${path === nav.name ? "text-black" : ""}`}>{nav.desc}</p>}
+          {withDesc && <p className={`font-semibold text-xl uppercase text-[#4d5d53] ${path === nav.name ? "text-black" : ""}`}>{nav.desc}</p>}
         </Link>
       ))}
     </div>
